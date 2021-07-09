@@ -15,6 +15,6 @@ func main() {
     var e int
     fmt.Println("default value for 'int' =", e)
 
-    f := "apple"
+    f := "apple"  // var f string = "apple"
     fmt.Println("f =", f)
 }
