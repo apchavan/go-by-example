@@ -10,7 +10,7 @@ func main() {
     fmt.Println("b =", b, ", c =", c)
 
     var d = true
-    fmt.Println("boolean 'd' =", d)
+    fmt.Println("boolean d =", d)
 
     var e int
     fmt.Println("default value for 'int' =", e)
