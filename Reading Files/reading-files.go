@@ -1,5 +1,5 @@
 /*
-First manually create a file called 'dat' at temporary location with follwing data:
+First manually create a file called 'dat' at temporary location with follwing data (no spaces):
     hello
     go
 then run this program.
