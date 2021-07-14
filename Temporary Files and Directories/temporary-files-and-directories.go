@@ -24,7 +24,7 @@ func main() {
 
     _, err = f.Write([]byte{1, 2, 3, 4})
     check(err)
-    defer f.Close()  // important to close the file
+    defer f.Close()  // important to close the file; otherwise program can't remove it
 
     dname, err := ioutil.TempDir("", "sampledir")
     check(err)
